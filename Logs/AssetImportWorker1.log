@@ -1,0 +1,1667 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ru' Physical Memory: 8010 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/dimav/Downloads/tower-defense-unity-master/tower-defense-unity-master
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64819
+Successfully changed project path to: C:/Users/dimav/Downloads/tower-defense-unity-master/tower-defense-unity-master
+C:/Users/dimav/Downloads/tower-defense-unity-master/tower-defense-unity-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14200] Host "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 3650332450 [EditorId] 3650332450 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U7C5OIH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14200] Host "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 3650332450 [EditorId] 3650332450 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U7C5OIH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 18.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dimav/Downloads/tower-defense-unity-master/tower-defense-unity-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012626 seconds.
+- Loaded All Assemblies, in  0.387 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 269 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.614 seconds
+Domain Reload Profiling: 999ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (136ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (388ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.863 seconds
+Refreshing native plugins compatible for Editor in 8.01 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 1520ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (624ms)
+		LoadAssemblies (419ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (248ms)
+				TypeCache.ScanAssembly (228ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (662ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (492ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 10.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2465 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (68.0 KB). Loaded Objects now: 2915.
+Memory consumption went from 109.0 MB to 108.9 MB.
+Total: 7.984700 ms (FindLiveObjects: 0.236700 ms CreateObjectMapping: 0.215200 ms MarkObjects: 7.347100 ms  DeleteObjects: 0.184600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 90162.219910 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_101.asset
+  artifactKey: Guid(4bb8465e1686d564e85262a4640db08f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_101.asset using Guid(4bb8465e1686d564e85262a4640db08f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea89db5e08e2d31bbb0a2f3300f4f73d') in 0.177636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Shaders/Circle.shader
+  artifactKey: Guid(3c00fc6c2987c8f489a38bc48e1bebd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/Circle.shader using Guid(3c00fc6c2987c8f489a38bc48e1bebd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1f385842e97a1846342a3c9bd7efab7') in 0.024666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/MathHelpers.cs
+  artifactKey: Guid(7a1d39eff8e10f14bac2f417de4c2c91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/MathHelpers.cs using Guid(7a1d39eff8e10f14bac2f417de4c2c91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e0637d1710e4321093b4dac70d23bf7') in 0.018406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/FlyingShotScript.cs
+  artifactKey: Guid(920ab12c6e6672c48bedc576259ed75b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/FlyingShotScript.cs using Guid(920ab12c6e6672c48bedc576259ed75b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02c4277b29f0cbbae736e7000f70d958') in 0.012698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_122.asset
+  artifactKey: Guid(af498b2f4db68d44c9ab9bb8e0a645f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_122.asset using Guid(af498b2f4db68d44c9ab9bb8e0a645f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1feab86ccca56d4b7b219f90e3c01f27') in 0.025127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Plane.prefab
+  artifactKey: Guid(c10f8ee6335fe554e85979fe4b225ae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Plane.prefab using Guid(c10f8ee6335fe554e85979fe4b225ae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fec076e7aff8baf96a47c791292c785') in 0.048670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Editor/EnemySpawnerEditor.cs
+  artifactKey: Guid(a51ee6382cc23a548a97b2ae7bdaa01c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/EnemySpawnerEditor.cs using Guid(a51ee6382cc23a548a97b2ae7bdaa01c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d5f747c8d867ef2882bd71f3c201265') in 0.015955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_109.asset
+  artifactKey: Guid(23cd747db843d6740ac66659a9224c56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_109.asset using Guid(23cd747db843d6740ac66659a9224c56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ef7908cdd47bf3f94c75eaf94ff5af7') in 0.019982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/TowerBuildSpot.prefab
+  artifactKey: Guid(a84424933fd10cb42975a6b1629cfee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/TowerBuildSpot.prefab using Guid(a84424933fd10cb42975a6b1629cfee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b7633918e0358fc8241c8cccd1f76e3') in 0.047220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 235
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/ExplosionScript.cs
+  artifactKey: Guid(fd1407154354d6745999762fcd602f60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/ExplosionScript.cs using Guid(fd1407154354d6745999762fcd602f60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc8e7ada8e6b95c49c90975b5bee1aea') in 0.015082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_114.asset
+  artifactKey: Guid(9b654c1e572291c4fb62762fe90b1ae9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_114.asset using Guid(9b654c1e572291c4fb62762fe90b1ae9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7915a12554ae940779f9a364214473ed') in 0.026563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_112.asset
+  artifactKey: Guid(ebe98d5662c9a9d40871feb3a08608e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_112.asset using Guid(ebe98d5662c9a9d40871feb3a08608e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f1a755b8efe088e116339594015e7b2') in 0.020358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fonts/BlackHanSans-Regular.ttf
+  artifactKey: Guid(965dd293d8f4d43458ce572549bc8e8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fonts/BlackHanSans-Regular.ttf using Guid(965dd293d8f4d43458ce572549bc8e8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48bf6f4c3e8045cab8831acab60e7f55') in 0.037497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/CoinSoundEffect.prefab
+  artifactKey: Guid(57bc8ffdce9a0a0418f83cce63ad70cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/CoinSoundEffect.prefab using Guid(57bc8ffdce9a0a0418f83cce63ad70cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f63f02b010b04612f2b3301356ccfca') in 0.018309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_1.asset
+  artifactKey: Guid(3b1f54a05b58a34409960ff6757e937d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_1.asset using Guid(3b1f54a05b58a34409960ff6757e937d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fb49d56cd2f894b4f58687aa7e48b1f') in 0.012718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/CurveEditor/Scene.unity
+  artifactKey: Guid(edc76b752b199440e93ecd26693424f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CurveEditor/Scene.unity using Guid(edc76b752b199440e93ecd26693424f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '374642ca633e7a43a479db52fb5f3218') in 0.013310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Rocket.prefab
+  artifactKey: Guid(7de8fce8894362844a7152328b031743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Rocket.prefab using Guid(7de8fce8894362844a7152328b031743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32d2f47926299e03a1e26efa099bba10') in 0.024650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/TurretScript.cs
+  artifactKey: Guid(db8feaeb446d98046b48de2efc06fb6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/TurretScript.cs using Guid(db8feaeb446d98046b48de2efc06fb6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '413b48794b755e4dacd844de7e1d7902') in 0.013949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Menu_screen.unity
+  artifactKey: Guid(a6c9c7f34b6f8aa4b9c86790e5bb6abd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Menu_screen.unity using Guid(a6c9c7f34b6f8aa4b9c86790e5bb6abd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '547d4db22916560c926995a9f3140d82') in 0.011050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Tilemaps/Tilemap.prefab
+  artifactKey: Guid(f94cb70fed16cd049b9f3b57f46d9b2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/Tilemap.prefab using Guid(f94cb70fed16cd049b9f3b57f46d9b2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '550c874cd3f84d28524bb8ec542c097f') in 0.023777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_110.asset
+  artifactKey: Guid(6fe1f29a5f757ea47a2739891646a673) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_110.asset using Guid(6fe1f29a5f757ea47a2739891646a673) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9cc3effe0ff32ffdc8cc69e88eae455') in 0.021520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_119.asset
+  artifactKey: Guid(c3865c4f82e1ab8449a97917ad053a52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_119.asset using Guid(c3865c4f82e1ab8449a97917ad053a52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6876ed75457fefb806b345a3e31d84bb') in 0.021974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_151.asset
+  artifactKey: Guid(6925e4e125218a549aaaa952c63630dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_151.asset using Guid(6925e4e125218a549aaaa952c63630dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c44ae386848566a730cf4ab74c930d0') in 0.021926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_17.asset
+  artifactKey: Guid(cfe58f0a0178ada40bd0ac82710a15fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_17.asset using Guid(cfe58f0a0178ada40bd0ac82710a15fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbcdbe759db41733a7fb4f28ec683f2e') in 0.022430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_166.asset
+  artifactKey: Guid(93c3f40586c67c94ea40eadb22035ba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_166.asset using Guid(93c3f40586c67c94ea40eadb22035ba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60b4770e4ea547b0c77c18564d88b6c0') in 0.023862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_147.asset
+  artifactKey: Guid(a8fdc8a18e81b914f94cb83f1225102b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_147.asset using Guid(a8fdc8a18e81b914f94cb83f1225102b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd6d723c90bd41bb8d980a61128b531c') in 0.020538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_13.asset
+  artifactKey: Guid(61ee8d2af68ef6f43a86c3f62e88a4fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_13.asset using Guid(61ee8d2af68ef6f43a86c3f62e88a4fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c89d750d3911d585c21ac6609e8d7fc0') in 0.021163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_159.asset
+  artifactKey: Guid(d6e105f2bf4da314ab3507025bf3ea58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_159.asset using Guid(d6e105f2bf4da314ab3507025bf3ea58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f83d8c576213736c06bcfcdb3a8273b') in 0.023004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_157.asset
+  artifactKey: Guid(4e90bfb767413824db4d5e7f91836a9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_157.asset using Guid(4e90bfb767413824db4d5e7f91836a9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a31803c74c96eae1cea5087a53ab5a7') in 0.020979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_154.asset
+  artifactKey: Guid(e62e5babe09819545b6fc5b544ca7bde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_154.asset using Guid(e62e5babe09819545b6fc5b544ca7bde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23f7533a9ae2b08bf0d84aabef920171') in 0.024299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/CameraShaker.cs
+  artifactKey: Guid(96bc2a58cec835f4bb18676781f0f845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CameraShaker.cs using Guid(96bc2a58cec835f4bb18676781f0f845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '417b49e74aca245f9dfedcfa857665d4') in 0.014331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_143.asset
+  artifactKey: Guid(1e91e82a1a388344496e30cdd72e1e3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_143.asset using Guid(1e91e82a1a388344496e30cdd72e1e3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c5850d6f28adf8ac094b790f04df4c0') in 0.019824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/BuildLocationScript.cs
+  artifactKey: Guid(f2bb331906411cc42947e196d9c8d473) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/BuildLocationScript.cs using Guid(f2bb331906411cc42947e196d9c8d473) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54bce7c90521e53cbb22fbd01dae5faa') in 0.018477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/ClickOutsideScript.cs
+  artifactKey: Guid(8ad283800a017fb41853e83146465275) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/ClickOutsideScript.cs using Guid(8ad283800a017fb41853e83146465275) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93be9192a03c102fc9b53d55eca6aa0f') in 0.018104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Menu_screenSettings.lighting
+  artifactKey: Guid(5a9eafcf49f798d4d804a9d9446c19df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Menu_screenSettings.lighting using Guid(5a9eafcf49f798d4d804a9d9446c19df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f582cb6a299b7b12bd872f5c760eb6b0') in 0.027349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/ShortExplosionSoundEffect.prefab
+  artifactKey: Guid(cfa645b05fd46d6478298554673c4721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/ShortExplosionSoundEffect.prefab using Guid(cfa645b05fd46d6478298554673c4721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '810fda0f4ca58c0d42db27650aa6fd98') in 0.024201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Turret.prefab
+  artifactKey: Guid(2dfc45dfc5921b044beecfc58a7849d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Turret.prefab using Guid(2dfc45dfc5921b044beecfc58a7849d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab4217e332312a7b56168a6f71454d67') in 0.023725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_100.asset
+  artifactKey: Guid(5c28bd2a9b1fde04c837175499536987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_100.asset using Guid(5c28bd2a9b1fde04c837175499536987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '889ab6cea251c2d6dad7bf98b7bc28e2') in 0.025554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_130.asset
+  artifactKey: Guid(3c0bf07c00ab0db4cb0def6040fa62de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_130.asset using Guid(3c0bf07c00ab0db4cb0def6040fa62de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a813075e1676829dfa0d9a88fdd075db') in 0.015083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sounds/gun.ogg
+  artifactKey: Guid(203ef4be476be0c428fb4e896a20e8aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/gun.ogg using Guid(203ef4be476be0c428fb4e896a20e8aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7978f898f1d383cce09f41e9cddc10d8') in 0.072913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_117.asset
+  artifactKey: Guid(3b2a0799e76a3464fbe13453061c4e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_117.asset using Guid(3b2a0799e76a3464fbe13453061c4e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26cf47aebf72e59c29da7865dda75e76') in 0.026662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_12.asset
+  artifactKey: Guid(b5633a8f4f6952c4dad98d9d4f975701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_12.asset using Guid(b5633a8f4f6952c4dad98d9d4f975701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34a586922fc6a06e35d5edc0487e33a4') in 0.022672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/RocketTower.prefab
+  artifactKey: Guid(ef3db4d9269b55b4f9d38c128553c1fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/RocketTower.prefab using Guid(ef3db4d9269b55b4f9d38c128553c1fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef2bf555509698fb89487235887e0822') in 0.024913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_184.asset
+  artifactKey: Guid(2e452bac93786b548b735ec2dd65cc8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_184.asset using Guid(2e452bac93786b548b735ec2dd65cc8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae1544a13919b3cc37ff89d4f33ae92f') in 0.024092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_204.asset
+  artifactKey: Guid(92a8f39f0ff40d64a84d157b368933f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_204.asset using Guid(92a8f39f0ff40d64a84d157b368933f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd4042e3ca5469bd37966f84be7266c6') in 0.022959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_223.asset
+  artifactKey: Guid(cbf9bdec410e7fb4aa1bcf14c164b28d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_223.asset using Guid(cbf9bdec410e7fb4aa1bcf14c164b28d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66d2b001e313eba205aa61f047071043') in 0.028240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_201.asset
+  artifactKey: Guid(f635d0376abb7914281cae27e78bc4c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_201.asset using Guid(f635d0376abb7914281cae27e78bc4c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3de1ad9a78303253680c14c9cb5d331c') in 0.024089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_207.asset
+  artifactKey: Guid(1cf8c9c3165c8f2459ca76bce66216b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_207.asset using Guid(1cf8c9c3165c8f2459ca76bce66216b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5dcfc7b8dd8e54a37584e806ad16fd9d') in 0.023014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_195.asset
+  artifactKey: Guid(0d5d1bee76f796a45ac6328143b85892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_195.asset using Guid(0d5d1bee76f796a45ac6328143b85892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89b7b546f05368a1b1c709c021974131') in 0.024377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_177.asset
+  artifactKey: Guid(eab3a495ad0c35844b3502caa57a89f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_177.asset using Guid(eab3a495ad0c35844b3502caa57a89f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f8186c5a4221540f271c216a42f2671') in 0.022186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_218.asset
+  artifactKey: Guid(964895fa2ff97a3409cb12eb379e14ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_218.asset using Guid(964895fa2ff97a3409cb12eb379e14ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc82bb4a178c19a95492d89cec57595b') in 0.025172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_200.asset
+  artifactKey: Guid(1e40229b62dde1c479002047734da523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_200.asset using Guid(1e40229b62dde1c479002047734da523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd15c54bab5a7f67ccc8259d8d7bbe683') in 0.025308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_221.asset
+  artifactKey: Guid(b64a46a0f09eae448a1d5966db543d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_221.asset using Guid(b64a46a0f09eae448a1d5966db543d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1e2dbc00dd44f43de508f1c0a1d32af') in 0.022495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_213.asset
+  artifactKey: Guid(a92de2bc6905c7d41b63afffbde08f25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_213.asset using Guid(a92de2bc6905c7d41b63afffbde08f25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce0105da44a8a0af612b56da9b4e79d3') in 0.019932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_196.asset
+  artifactKey: Guid(4a94bebc88d91ae4eb3904e635f15bcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_196.asset using Guid(4a94bebc88d91ae4eb3904e635f15bcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8197aaef831fb578c56bde24c48e11dd') in 0.023405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_209.asset
+  artifactKey: Guid(abd8c47d709b97b4abf86661adc21324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_209.asset using Guid(abd8c47d709b97b4abf86661adc21324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a3cd5f5d55b61bc8ea451296dffd907') in 0.025105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_191.asset
+  artifactKey: Guid(15fc4d50095d11f4bb1e97b10a8482f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_191.asset using Guid(15fc4d50095d11f4bb1e97b10a8482f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b38431fffc66889a8b7c0da24f431888') in 0.026243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_197.asset
+  artifactKey: Guid(02b5b43fb6543e24283650a38d4e57e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_197.asset using Guid(02b5b43fb6543e24283650a38d4e57e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e5c48ce50143fa324206a827ca422d6') in 0.027740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_178.asset
+  artifactKey: Guid(ef1ee34cfbd40904eb22bccfd5b82c83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_178.asset using Guid(ef1ee34cfbd40904eb22bccfd5b82c83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acf17f3e42c9f815fa04fa885e45a0b0') in 0.021807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_194.asset
+  artifactKey: Guid(32211a35e77c55843a260200bed49e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_194.asset using Guid(32211a35e77c55843a260200bed49e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0048f0bf3b0aef9f6056ed739a71531a') in 0.020886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_217.asset
+  artifactKey: Guid(5419a7a65a79e714b8a7c40d16121eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_217.asset using Guid(5419a7a65a79e714b8a7c40d16121eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bdcd6a5872f69eb090858081ef3941b0') in 0.025513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_175.asset
+  artifactKey: Guid(cc3dc1bb319d0ec49959ba1c57b8b83d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_175.asset using Guid(cc3dc1bb319d0ec49959ba1c57b8b83d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a11b6c5b91c98f44ce1f964008ed1a03') in 0.021173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_220.asset
+  artifactKey: Guid(355f4c9475a9af643b21f06fb2db87a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_220.asset using Guid(355f4c9475a9af643b21f06fb2db87a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3c3975cac59405b63c43bd830ff8772') in 0.023040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_192.asset
+  artifactKey: Guid(ffcfac2b3ea00ae47b5a4f62bec01dbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_192.asset using Guid(ffcfac2b3ea00ae47b5a4f62bec01dbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8575136531dbef891dc2f96330a9ce47') in 0.027168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_181.asset
+  artifactKey: Guid(f530d9e7fee93174dad19e37c4f3a887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_181.asset using Guid(f530d9e7fee93174dad19e37c4f3a887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6edcc0a50dd4b483d0f72fb8b22837e2') in 0.021589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_153.asset
+  artifactKey: Guid(55ab3e214555700439c2ea034403e1dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_153.asset using Guid(55ab3e214555700439c2ea034403e1dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4aabde952f9cb7b04f4f7d80ca85e4d3') in 0.023996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_250.asset
+  artifactKey: Guid(f7732538c8c98614099a17977e9fe572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_250.asset using Guid(f7732538c8c98614099a17977e9fe572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4dee7669f0ec3acac877cf36294a8de0') in 0.024618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_252.asset
+  artifactKey: Guid(ce334a4f34b6ccb4cafe69a3f62f7538) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_252.asset using Guid(ce334a4f34b6ccb4cafe69a3f62f7538) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fa5175ad83baa41a5267700bb45077d') in 0.018821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_23.asset
+  artifactKey: Guid(5f9f87f35a7a6aa4da62b45eb4e7cc5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_23.asset using Guid(5f9f87f35a7a6aa4da62b45eb4e7cc5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45204ea6cf39c71ed61df97890bb2143') in 0.017472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_264.asset
+  artifactKey: Guid(5ad223d3e1c58044a963075f8949aa67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_264.asset using Guid(5ad223d3e1c58044a963075f8949aa67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a357579050f9022cd1401c230c20f304') in 0.024393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_253.asset
+  artifactKey: Guid(dd2f0d5a8b662a842a6165ba4d2cc30e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_253.asset using Guid(dd2f0d5a8b662a842a6165ba4d2cc30e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca7c636935491530c8d933000153ef47') in 0.020613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_261.asset
+  artifactKey: Guid(e1ec8f3df09b1cc4a90d42d4db1c2e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_261.asset using Guid(e1ec8f3df09b1cc4a90d42d4db1c2e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffa5a01dc6403694e148ea59627ccdc0') in 0.020110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_241.asset
+  artifactKey: Guid(738fb99ccabf566499483eaa191e7f5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_241.asset using Guid(738fb99ccabf566499483eaa191e7f5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc82dede82b8f4bf26143a1029a48007') in 0.020083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_254.asset
+  artifactKey: Guid(5ad3135b78345e24a9c31e3d175a3eeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_254.asset using Guid(5ad3135b78345e24a9c31e3d175a3eeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '003203a431b8e6895350556be8191c27') in 0.024191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_246.asset
+  artifactKey: Guid(67a06d256c5c7d04881d090a10463677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_246.asset using Guid(67a06d256c5c7d04881d090a10463677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b357f9647936b08a193c6a5c7478e658') in 0.020362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_239.asset
+  artifactKey: Guid(dba4bfc6885fbcc489390d73997aa58b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_239.asset using Guid(dba4bfc6885fbcc489390d73997aa58b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5826c1b916e7b06ed7eb073836b116d') in 0.023725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_256.asset
+  artifactKey: Guid(193f165284833a643960ffaf0c302c06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_256.asset using Guid(193f165284833a643960ffaf0c302c06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4e1b58aea3ca37de5374a460986cbb5') in 0.021436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_230.asset
+  artifactKey: Guid(1109055adc08fb54389a2c6bfbbcdd2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_230.asset using Guid(1109055adc08fb54389a2c6bfbbcdd2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d8b424ed19dfd4f07a9af8cf27eadfa') in 0.019158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_25.asset
+  artifactKey: Guid(c84f06865ffec0d4780ba45bb128706b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_25.asset using Guid(c84f06865ffec0d4780ba45bb128706b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78972632b7e9cf4383c66b26bc2b06fb') in 0.017595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_245.asset
+  artifactKey: Guid(95a3220503debf04b9e4477699ff69c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_245.asset using Guid(95a3220503debf04b9e4477699ff69c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40258241e45d1441de1a5aa943c52eaf') in 0.019950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_243.asset
+  artifactKey: Guid(eabd404c3a18e0a45a38728746903063) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_243.asset using Guid(eabd404c3a18e0a45a38728746903063) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8eccee11547f1700f080e1c6ba5692c') in 0.018586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_251.asset
+  artifactKey: Guid(278ea926280da9741a72359c617bc4cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_251.asset using Guid(278ea926280da9741a72359c617bc4cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f753b77c5874f3a74c0638f3f66c317') in 0.021986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_128.asset
+  artifactKey: Guid(d8149611f194f1048bbea15126844815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_128.asset using Guid(d8149611f194f1048bbea15126844815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '958595b4927b1ecba42b3ae6ee07a8d8') in 0.020781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_148.asset
+  artifactKey: Guid(04551f66cc6d75d479fd6b0cc8ea9330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_148.asset using Guid(04551f66cc6d75d479fd6b0cc8ea9330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4b18242d0f9f48fd6e8d652f6688b53') in 0.022002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_193.asset
+  artifactKey: Guid(87fb790237aa62c47b05c47dd850fb1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_193.asset using Guid(87fb790237aa62c47b05c47dd850fb1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abe6dbefd6ddd77d0fb464c83f8285a2') in 0.022354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_183.asset
+  artifactKey: Guid(c583b3e849c6f194092f4ce2b69efdc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_183.asset using Guid(c583b3e849c6f194092f4ce2b69efdc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce324029a185c4a4617f02a6dc07329b') in 0.027889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_139.asset
+  artifactKey: Guid(73ca4d27514262042b426a384e999efb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_139.asset using Guid(73ca4d27514262042b426a384e999efb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '868b624ce36561218ec18faa591528dd') in 0.023420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_22.asset
+  artifactKey: Guid(8ac12417c88a42143babe8ce3c358dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_22.asset using Guid(8ac12417c88a42143babe8ce3c358dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9250a4a56646e5dc26b971a5aa1fafea') in 0.023871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_115.asset
+  artifactKey: Guid(7d99a806bdfa1d242a4a10ce77bd722b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_115.asset using Guid(7d99a806bdfa1d242a4a10ce77bd722b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e023cdc9defbfa04d6ad896ebbc8a84') in 0.021540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_288.asset
+  artifactKey: Guid(8c45b634ee73c5d4089dd57d42118a13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_288.asset using Guid(8c45b634ee73c5d4089dd57d42118a13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0ca3b1f733e3c658bc244f2f5604a19') in 0.027165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_38.asset
+  artifactKey: Guid(e3c67ff011327da44acad6de0be45827) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_38.asset using Guid(e3c67ff011327da44acad6de0be45827) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd4204fafc4d58d5c35747c16968ad58') in 0.022388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_271.asset
+  artifactKey: Guid(6c00330c615eab644934951690e00528) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_271.asset using Guid(6c00330c615eab644934951690e00528) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9818c150df9bb00cb80dba2d66c2beb2') in 0.024388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_296.asset
+  artifactKey: Guid(4d32864c672919b4f85f02998214d35a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_296.asset using Guid(4d32864c672919b4f85f02998214d35a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df466ca9dda8464dc9efe23d845e11b8') in 0.020414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_3.asset
+  artifactKey: Guid(0ede800726f1b8746a0de6d7b54f0fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_3.asset using Guid(0ede800726f1b8746a0de6d7b54f0fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5944213706b1467a2dffd875c72ae070') in 0.014360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_30.asset
+  artifactKey: Guid(e3114f95de6c7464fa9aea14c6e6c277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_30.asset using Guid(e3114f95de6c7464fa9aea14c6e6c277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aecfb41fa6e08ed71a02928e5462fa30') in 0.023803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_39.asset
+  artifactKey: Guid(56b9c822c2d1c4646a2ada1112b1ccb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_39.asset using Guid(56b9c822c2d1c4646a2ada1112b1ccb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bab1f8044c915c6d0d03fb34003935ab') in 0.024522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_4.asset
+  artifactKey: Guid(655455ea3429f4341975d3d95e107457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_4.asset using Guid(655455ea3429f4341975d3d95e107457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '709417b9b09d07add80496351f8147c1') in 0.016333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_282.asset
+  artifactKey: Guid(d8314c3d1b1179a4f9293b5fe1c460b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_282.asset using Guid(d8314c3d1b1179a4f9293b5fe1c460b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05b5aaf9354bc556ab5d8461821ef4c6') in 0.024547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_290.asset
+  artifactKey: Guid(ab97ad85ed50ee045b5899fb9772efd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_290.asset using Guid(ab97ad85ed50ee045b5899fb9772efd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8adb62758ae36c3aab7321b38e333d87') in 0.021732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_292.asset
+  artifactKey: Guid(2881dd85f03fb004ca2242cf9b0b7d09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_292.asset using Guid(2881dd85f03fb004ca2242cf9b0b7d09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcd3473a238bdef8e9485afb76fa663a') in 0.023565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_274.asset
+  artifactKey: Guid(af680450eed6f894d8c4ca30e4db9a49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_274.asset using Guid(af680450eed6f894d8c4ca30e4db9a49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3490a6735ff4d5eda953716304d7a87d') in 0.019680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_40.asset
+  artifactKey: Guid(7d444159cb63e644e812bda227b81aaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_40.asset using Guid(7d444159cb63e644e812bda227b81aaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e1674d3346acf235f68cefd74b3523c') in 0.019134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_285.asset
+  artifactKey: Guid(a32ee03ca0984164ba9f3496db35fad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_285.asset using Guid(a32ee03ca0984164ba9f3496db35fad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c754379019f51595e0e5f8f66ce4a94') in 0.022203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_32.asset
+  artifactKey: Guid(ce2fe6b10ce5bc840930a06569fc6e9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_32.asset using Guid(ce2fe6b10ce5bc840930a06569fc6e9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '140e9486dd5bdc5196e24f326192f709') in 0.022694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_284.asset
+  artifactKey: Guid(204a4582210e73a4aa836378a0af0b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_284.asset using Guid(204a4582210e73a4aa836378a0af0b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6468270fcb48cfa412412b2a51ed9b4') in 0.020803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_36.asset
+  artifactKey: Guid(29162affc538ff1418a4b023b9ceca3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_36.asset using Guid(29162affc538ff1418a4b023b9ceca3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a16b2915322d7cd89e5732ded42ee68d') in 0.022797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_280.asset
+  artifactKey: Guid(6e19944b759c39943b60d197c8625ae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_280.asset using Guid(6e19944b759c39943b60d197c8625ae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cb7439fc2b96568729ca2c847cac30b') in 0.024591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_283.asset
+  artifactKey: Guid(862d66e733c5a4844916dab25dec993c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_283.asset using Guid(862d66e733c5a4844916dab25dec993c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '798d0b6dc59bfc523af9004a4f1f0e9f') in 0.027547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_37.asset
+  artifactKey: Guid(01310d5d467a42c4cbf166241bba2c5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_37.asset using Guid(01310d5d467a42c4cbf166241bba2c5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57fe7490cf23567ddc42f3d80fff9afc') in 0.022847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_291.asset
+  artifactKey: Guid(7ddfe4024a5677640b49f472a196bc8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_291.asset using Guid(7ddfe4024a5677640b49f472a196bc8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9421aeeabba23c8d38a9ead6206cb0ee') in 0.029888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_273.asset
+  artifactKey: Guid(8f073ea0cc359134fa11ef321b6bddc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_273.asset using Guid(8f073ea0cc359134fa11ef321b6bddc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14224e54912fda32b49d0ff16f3e8d38') in 0.037869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_105.asset
+  artifactKey: Guid(eb45da5d5701e9a4890f5c34b7445bd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_105.asset using Guid(eb45da5d5701e9a4890f5c34b7445bd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f58ecfc9de412a383e627b3aa3ad07c') in 0.040660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_64.asset
+  artifactKey: Guid(5b598d9d13372cb468821388c0028e96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_64.asset using Guid(5b598d9d13372cb468821388c0028e96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23401c42fd2c81538d10d3b51bf1cd47') in 0.022565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_43.asset
+  artifactKey: Guid(940c8721d1ccf344ca49e1b0117302f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_43.asset using Guid(940c8721d1ccf344ca49e1b0117302f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '982f565aa47fc319491a5f3afa1198f5') in 0.030125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_42.asset
+  artifactKey: Guid(b2a0b061448592946a54ef8a59f806f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_42.asset using Guid(b2a0b061448592946a54ef8a59f806f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd16b769c72e21fbe2d9828bcd69b0f56') in 0.023568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_71.asset
+  artifactKey: Guid(571f961ad4eac7d4d891c780bb343298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_71.asset using Guid(571f961ad4eac7d4d891c780bb343298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdc336d3bbce6958c92676624986b519') in 0.028410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_47.asset
+  artifactKey: Guid(173091d9e243ccc4fb483a28c041767d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_47.asset using Guid(173091d9e243ccc4fb483a28c041767d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f5e051f09a9bb181d9ff4271e57356c') in 0.018263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_80.asset
+  artifactKey: Guid(6c920180a19bdf84eb7a758c5328be5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_80.asset using Guid(6c920180a19bdf84eb7a758c5328be5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '399d53eceb1f5eedb1d5d2b6fa2cffab') in 0.023703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_49.asset
+  artifactKey: Guid(4da9ee49b5a009747b0a6475f046d3c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_49.asset using Guid(4da9ee49b5a009747b0a6475f046d3c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '219d0a179696756402f417f2ff8cc686') in 0.023774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_6.asset
+  artifactKey: Guid(1e90604a33ae09142992c02b72bfafac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_6.asset using Guid(1e90604a33ae09142992c02b72bfafac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e4f19359fd3d61195b396c3520a80dd') in 0.023332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_75.asset
+  artifactKey: Guid(bee548d2b6bd7d741a5fa31ea6f3e24a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_75.asset using Guid(bee548d2b6bd7d741a5fa31ea6f3e24a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe5ebc8ef9247296211efdde879597ef') in 0.023387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_59.asset
+  artifactKey: Guid(33eb81cb72775d34c82156998696be56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_59.asset using Guid(33eb81cb72775d34c82156998696be56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cafa8c86e7495b47593a6e2f70b8419e') in 0.024650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_51.asset
+  artifactKey: Guid(ea349977f303dab42aab814ffc18a815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_51.asset using Guid(ea349977f303dab42aab814ffc18a815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d5dcc5a558a33a0fb26d95d6d0e834e') in 0.019735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_63.asset
+  artifactKey: Guid(fa5a1a1b4e8f80948ba6e46d8035f653) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_63.asset using Guid(fa5a1a1b4e8f80948ba6e46d8035f653) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '993d71a6dd3aefbe8bae6dc42eb1d7ea') in 0.026815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_67.asset
+  artifactKey: Guid(574e002bd18bf3b47ac7e2aa37959441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_67.asset using Guid(574e002bd18bf3b47ac7e2aa37959441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ccb49ebf6888230c92eaea059875715') in 0.022536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_77.asset
+  artifactKey: Guid(68f10de8d76b2e94289fc1f57d14d30a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_77.asset using Guid(68f10de8d76b2e94289fc1f57d14d30a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f69a0e194b21f6ac3b9b9dff81074f08') in 0.026307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Level_02.unity
+  artifactKey: Guid(35e16e56682d91f4ca9cd21cb83170f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level_02.unity using Guid(35e16e56682d91f4ca9cd21cb83170f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc9a0953c28d6e665078d7e444e3b032') in 0.011766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_15.asset
+  artifactKey: Guid(82523f033529b564695163a0e2c31ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_15.asset using Guid(82523f033529b564695163a0e2c31ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b3189a68c6e971cd1210f0fa44957f9') in 0.026028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/PathFollower.cs
+  artifactKey: Guid(bd77565f06213f3419b318f0fd9ed2ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PathFollower.cs using Guid(bd77565f06213f3419b318f0fd9ed2ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58c59f858d7797e26593c3a97df19f7c') in 0.014369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/SoundEffectScript.cs
+  artifactKey: Guid(c8815559e5a799848a754b990afcb216) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/SoundEffectScript.cs using Guid(c8815559e5a799848a754b990afcb216) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19010f216e3db27fea7a1a15b660fc00') in 0.015223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_132.asset
+  artifactKey: Guid(244b83492dc6c3043b3fc7da6a9e464e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_132.asset using Guid(244b83492dc6c3043b3fc7da6a9e464e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75d078f5db3e56e4cfd3ea702660e7a3') in 0.017846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_198.asset
+  artifactKey: Guid(eb0075d78beabca489f84cc793e3c55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_198.asset using Guid(eb0075d78beabca489f84cc793e3c55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8582fbdbc272477a63332c43d621c387') in 0.023433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_20.asset
+  artifactKey: Guid(69a864ba9282c3146911eebe8bd22380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_20.asset using Guid(69a864ba9282c3146911eebe8bd22380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8c36c73dab4645e9d8700b95376bf90') in 0.023069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_277.asset
+  artifactKey: Guid(8a00b655f4553354ab39ea1476e01e52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_277.asset using Guid(8a00b655f4553354ab39ea1476e01e52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '989c8a9b395178506bb4fba9ee2562a0') in 0.019918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Soldier.prefab
+  artifactKey: Guid(2b4be0333c134ad478dfc8f4bd8c7f23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Soldier.prefab using Guid(2b4be0333c134ad478dfc8f4bd8c7f23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd78b14b9eacd7f8ae5328f25d8ace786') in 0.027883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilemap/Tiles/Rule Override Tile/Scripts/Editor/RuleOverrideTileEditor.cs
+  artifactKey: Guid(dd977390416471341b10fd1278290da0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Tiles/Rule Override Tile/Scripts/Editor/RuleOverrideTileEditor.cs using Guid(dd977390416471341b10fd1278290da0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43ab429a81939de2eab94c137d2417eb') in 0.020643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_9.asset
+  artifactKey: Guid(535cda4825c51954daf1fd6c4d3b269a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_9.asset using Guid(535cda4825c51954daf1fd6c4d3b269a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2497b92581d061c460059dc9f56ba1d') in 0.028162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_82.asset
+  artifactKey: Guid(127c35af99ee2ba4d81f38221d3b8a28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_82.asset using Guid(127c35af99ee2ba4d81f38221d3b8a28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1087b00da4409a154a91b8bbfd2d011') in 0.023016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/Tiles/Random Tile/Scripts/RandomTile.cs
+  artifactKey: Guid(535f8e525ff367c4ba67961e201a05ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Tiles/Random Tile/Scripts/RandomTile.cs using Guid(535f8e525ff367c4ba67961e201a05ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '953ccce5e724fed039ef2f7f686c293f') in 0.016093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/RuleTileEditor.cs
+  artifactKey: Guid(139f9377103555b49b8dcd62686df3bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/RuleTileEditor.cs using Guid(139f9377103555b49b8dcd62686df3bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '433e76347c48337c4af7eda2e32b798e') in 0.021259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor/GameObjectBrush.cs
+  artifactKey: Guid(0abded712ad706044a53ef292972edbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor/GameObjectBrush.cs using Guid(0abded712ad706044a53ef292972edbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '131dca04df22f48d310054b1b64b6ca2') in 0.034287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/TintTextureGenerator.cs
+  artifactKey: Guid(b41bf0cc11b1c8f419f96e8eb0adea40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/TintTextureGenerator.cs using Guid(b41bf0cc11b1c8f419f96e8eb0adea40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91d8c9d1ecc3bd70ce9bf97e1cffd91a') in 0.021613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_86.asset
+  artifactKey: Guid(4f993efb82c69434183ed6206da3f1e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_86.asset using Guid(4f993efb82c69434183ed6206da3f1e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '829e7add200c31180cd440c4474c5f3b') in 0.032481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tilemap/GridInformation/Scripts/GridInformation.cs
+  artifactKey: Guid(e7bb9acb2cffc5f45abddc238a0ad9b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/GridInformation/Scripts/GridInformation.cs using Guid(e7bb9acb2cffc5f45abddc238a0ad9b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cea3decb4895b76e1c3651ae1282bac4') in 0.027034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders/TintedTilemap.shader
+  artifactKey: Guid(9fcc3b710e7f7ae44bcf65125a08d5ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders/TintedTilemap.shader using Guid(9fcc3b710e7f7ae44bcf65125a08d5ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c0d225e88178af08ceb2ff0fefd54e5') in 0.022898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor/CoordinateBrush.cs
+  artifactKey: Guid(d283e353fe1f4c34f8ac458281740fb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor/CoordinateBrush.cs using Guid(d283e353fe1f4c34f8ac458281740fb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e9e269d90b215e5238c2edae9da8eb2') in 0.020112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Plugins/CurveEditor/Editor/RoadEditor.cs
+  artifactKey: Guid(8f2c1253f39224def8156ebcb10fd52a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CurveEditor/Editor/RoadEditor.cs using Guid(8f2c1253f39224def8156ebcb10fd52a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19e50b64841b3cf81ff66bbe2ea938c0') in 0.022599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilemap/Tiles/Rule Tile/ScriptTemplates/NewCustomRuleTile.cs.txt
+  artifactKey: Guid(186e43c057806e545b5fa3fe8dc394c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Tiles/Rule Tile/ScriptTemplates/NewCustomRuleTile.cs.txt using Guid(186e43c057806e545b5fa3fe8dc394c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57162739c2ae592b2a3cf42514e52978') in 0.028726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilemap/Brushes/Random Brush/Scripts/Editor/RandomBrush.cs
+  artifactKey: Guid(d80edd6caba93514eb01722041fe50b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Brushes/Random Brush/Scripts/Editor/RandomBrush.cs using Guid(d80edd6caba93514eb01722041fe50b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2731f80c95db9e3f7544dfeb7da8d596') in 0.021527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_89.asset
+  artifactKey: Guid(98f07e54654d17f408eb6f48bdbbac3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_89.asset using Guid(98f07e54654d17f408eb6f48bdbbac3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e718043871893e1d3d0fbf099427a95a') in 0.029405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilemap/Tiles/Rule Override Tile/Scripts/RuleOverrideTile.cs
+  artifactKey: Guid(4c779848d9dd029409ca676b49e10a18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Tiles/Rule Override Tile/Scripts/RuleOverrideTile.cs using Guid(4c779848d9dd029409ca676b49e10a18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e12c1de963528e6f4745e78e9d6beec9') in 0.020301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/CurveEditor/Examples/PathPlacer.cs
+  artifactKey: Guid(d00f38b9ee2f045ba93e76086978f207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CurveEditor/Examples/PathPlacer.cs using Guid(d00f38b9ee2f045ba93e76086978f207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0651a859853fa94b08b5e23420afce2d') in 0.018546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_228.asset
+  artifactKey: Guid(f2783f8879071654c81e9246ba10b771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_228.asset using Guid(f2783f8879071654c81e9246ba10b771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b0f69d8f40e65df387493512c0c9aaf') in 0.023350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_225.asset
+  artifactKey: Guid(dc503fd61e47640499251da0ec16e66a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_225.asset using Guid(dc503fd61e47640499251da0ec16e66a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f742dbe878e4b30b5457fe7173a79c1a') in 0.030841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_262.asset
+  artifactKey: Guid(51fe40f396e723543bade5b1e12dace0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_262.asset using Guid(51fe40f396e723543bade5b1e12dace0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4571dc15e5da342685df1f9623979120') in 0.021744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/HealthDrawerScript.cs
+  artifactKey: Guid(5e21e5836f9f161478a7f1525d20f982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/HealthDrawerScript.cs using Guid(5e21e5836f9f161478a7f1525d20f982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f5be82bbcf608ec3a334054e9d2e8fa') in 0.015001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_188.asset
+  artifactKey: Guid(3f7aba8021d284947abc74aad5688be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_188.asset using Guid(3f7aba8021d284947abc74aad5688be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4dc930aa206ae9a110d10ef35aa49f1') in 0.020848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_224.asset
+  artifactKey: Guid(d76a668a3491f3f409d8e4eaeb988682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_224.asset using Guid(d76a668a3491f3f409d8e4eaeb988682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bc4cb289cefbdf6599b3f30643b0a50') in 0.025716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/Circle.mat
+  artifactKey: Guid(6e2960b0010c004488927fc830499555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Circle.mat using Guid(6e2960b0010c004488927fc830499555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b715f4b8b58477bfda235f2fee928ab9') in 0.028072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_5.asset
+  artifactKey: Guid(442d65782fba1bd4daf0e4883e2e2c42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_5.asset using Guid(442d65782fba1bd4daf0e4883e2e2c42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4167570898bd52f36477319e61e680e6') in 0.022808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_263.asset
+  artifactKey: Guid(2414f5745f4f2b54781a10b58e69d1a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_263.asset using Guid(2414f5745f4f2b54781a10b58e69d1a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '478c8847e69d9498a98535e7d7269dbe') in 0.021991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Tilemaps/towerDefense_tilesheet_138.asset
+  artifactKey: Guid(b21697fcd8299ba429b6bd4e73a28a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tilemaps/towerDefense_tilesheet_138.asset using Guid(b21697fcd8299ba429b6bd4e73a28a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9778f9ec3a2b64031f84c1353bc53199') in 0.019650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (4.6 KB). Loaded Objects now: 2917.
+Memory consumption went from 70.0 MB to 70.0 MB.
+Total: 6.575600 ms (FindLiveObjects: 0.210900 ms CreateObjectMapping: 0.164100 ms MarkObjects: 6.129500 ms  DeleteObjects: 0.070600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
